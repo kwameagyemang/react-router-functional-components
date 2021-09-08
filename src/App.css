@@ -1,0 +1,27 @@
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-bar {
+  background-color: lightblue;
+  height: 50px;
+  width: 100%;
+}
+
+/* specificity */
+#nav-bar ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+#footer {
+  background-color: lightgreen;
+  height: 50px;
+  text-align: center;
+  width: 100%;
+}
