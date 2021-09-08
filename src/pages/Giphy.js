@@ -13,8 +13,8 @@ const Giphy = () => {
   // data.fixed_height_downsample_url
   return (
     <div>
-      <h1>Random GIF</h1>
-      <button onClick={() => randomGIF()}>Random</button>
+      <h1 className='random'>Random GIF</h1>
+      <button id='button'onClick={() => randomGIF()}>Random</button>
       <div>
         <img src={gifURL} alt="random gif" />
       </div>
